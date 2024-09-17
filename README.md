@@ -9,7 +9,7 @@ flowchart TD
     E --> F[Aprobación del PR]
     F --> G[Merge en rama principal]
     G --> H[Actualiza repositorio local]
-    H --> I(Fin)
+    H --> I((Fin))
     
     D -->|Solicitar Cambios| E
     E -->|Cambios realizados| B
