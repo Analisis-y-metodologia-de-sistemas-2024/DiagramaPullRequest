@@ -1,7 +1,7 @@
 # Diagrama Pull Request
 ```mermaid
 flowchart TD
-    X(Inicio) --> A[Desarrollador crea una rama]
+    X((Inicio)) --> A[Desarrollador crea una rama]
     A --> B[Realiza cambios y commit]
     B --> C[Push a repositorio remoto]
     C --> D[Crea un Pull Request]
